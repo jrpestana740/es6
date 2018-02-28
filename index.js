@@ -35,10 +35,10 @@ class imageMessage extends Message {
 
 var text = 'some text';
 var created = Date.now();
-var duckTypeMessage {
+var duckTypeMessage ,{
   text,
   created
-}
+};
 console.log(duckTypeMessage);
 
 var emptyMessage = new Message();
